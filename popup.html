@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h3>History Scrubber <span class="badge">Pro</span></h3>
+        <p class="subtitle">Automatic Guardian</p>
+      </header>
+      
+      <div class="card input-section">
+        <div class="input-group">
+          <input type="text" id="newKeyword" placeholder="Keyword (e.g. twitter.com)...">
+          <button id="addBtn">Add</button>
+        </div>
+        <ul id="keywordList"></ul>
+      </div>
+
+      <div class="card log-section">
+        <div class="section-header">
+          <h4>Recent Activity (Last 10)</h4>
+          <button id="clearLogs" class="text-btn">Clear</button>
+        </div>
+        <div id="logContainer">
+          <div class="empty-state">No recent actions</div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <button id="scrubBtn" class="danger-btn">Deep Clean History Now</button>
+        <div id="status"></div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

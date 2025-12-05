@@ -1,0 +1,111 @@
+/* popup.css */
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+  
+  /* Header */
+  header {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  h3 { margin: 0; color: #2c3e50; font-size: 18px; }
+  .badge { background: #2196F3; color: white; font-size: 10px; padding: 2px 6px; border-radius: 4px; vertical-align: top; }
+  .subtitle { margin: 2px 0 0 0; font-size: 12px; color: #7f8c8d; }
+  
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Input Group */
+  .input-group { display: flex; gap: 8px; margin-bottom: 10px; }
+  input {
+    flex-grow: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    font-size: 13px;
+  }
+  input:focus { border-color: #2196F3; }
+  
+  button#addBtn {
+    padding: 8px 15px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+  button#addBtn:hover { background: #1976D2; }
+  
+  /* Keyword List */
+  ul { list-style: none; padding: 0; margin: 0; max-height: 100px; overflow-y: auto; }
+  li {
+    background: #f8f9fa;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+  }
+  .remove-item { color: #ff5252; cursor: pointer; font-weight: bold; font-size: 16px; line-height: 1; }
+  .remove-item:hover { color: #d32f2f; }
+  
+  /* Logs Section */
+  .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+  h4 { margin: 0; font-size: 13px; color: #555; text-transform: uppercase; letter-spacing: 0.5px; }
+  .text-btn { background: none; border: none; color: #999; cursor: pointer; font-size: 11px; text-decoration: underline; }
+  .text-btn:hover { color: #555; }
+  
+  #logContainer {
+    max-height: 180px;
+    overflow-y: auto;
+    font-size: 12px;
+    border-top: 1px solid #eee;
+  }
+  
+  .log-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+  }
+  .log-time { color: #999; font-size: 10px; margin-bottom: 2px; }
+  .log-url { color: #d32f2f; word-break: break-all; font-family: monospace; }
+  .empty-state { color: #ccc; text-align: center; padding: 20px 0; font-style: italic; }
+  
+  /* Footer Button */
+  .danger-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(211, 47, 47, 0.3);
+    transition: all 0.2s;
+  }
+  .danger-btn:hover { background-color: #d32f2f; transform: translateY(-1px); }
+  .danger-btn:active { transform: translateY(1px); }
+  
+  #status { margin-top: 8px; font-size: 12px; text-align: center; min-height: 15px; }
