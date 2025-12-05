@@ -21,15 +21,14 @@ Since this project is open source, you can run the latest version directly from 
 
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/HaoweiLi97/history-zap.git](https://github.com/HaoweiLi97/history-zap.git)
+    git clone https://github.com/HaoweiLi97/history-zap.git
     ```
 2.  Open Chrome and navigate to `chrome://extensions/`.
 3.  Toggle **Developer mode** in the top right corner.
 4.  Click **Load unpacked**.
 5.  Select the folder where you cloned this repository.
 
-### Option 2: Chrome Web Store
-*(Coming soon...)*
+
 
 ## 🛠 Usage
 
