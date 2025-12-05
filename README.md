@@ -11,7 +11,6 @@
 * **⚡️ Instant Auto-Zap**: Runs a background service worker that detects and deletes history entries the millisecond you visit a flagged website.
 * **🧹 Deep Clean Loop**: A robust manual cleaning mode that recursively scans and deletes historical data (even thousands of entries) until no trace remains.
 * **📝 Activity Log**: Keeps a local log of the last 10 actions so you know exactly what was removed and when.
-* **🚫 Auto-Close Tabs**: (Optional) Detects and closes open tabs that match your restricted keywords.
 * **🔒 100% Private**: No data leaves your browser. Keywords and logs are stored in `chrome.storage.local`. No analytics, no tracking.
 
 ## 🚀 Installation
